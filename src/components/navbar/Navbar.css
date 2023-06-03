@@ -1,0 +1,22 @@
+.Navbar{
+    width: 50%;
+    margin: 25px 0px 50px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+.link-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10%;
+}
+.link{
+  color: rgb(45, 45, 45);
+  text-decoration: none;
+  font-weight: 500;
+}
+@media screen and (max-width:1200px){
+    .Navbar{
+      width: 80%;
+    }
+  }

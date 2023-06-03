@@ -1,0 +1,53 @@
+.Ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.ready-title {
+  text-align: center;
+  margin-top: 25px;
+}
+.input{
+  height: 20px;
+  padding: 6px 12px;
+  border: none;
+  border-bottom: 2px solid blue;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.3rem;
+}
+.input-wrapper {
+  width: 250px;
+  gap: 10px;
+  display: flex;
+}
+.input-name {
+  width: 70%;
+}
+.input-class{
+  width: 30%
+}
+.ready-button {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(52 135 230);
+    color: white;
+    cursor: pointer;
+}
+.ready-description {
+  width: 75%;
+  text-align: center;
+  color: rgb(40, 40, 40);
+  margin-bottom: 50px;
+  font-size: 17px;
+  line-height: 25px;
+}
+.ready-time{
+  margin: 150px;
+  font-size: 35px;
+}

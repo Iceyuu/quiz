@@ -1,0 +1,123 @@
+.Qs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Main {
+  width: 100%;
+  display: flex;
+  color: rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+}
+.questionName{
+  margin: 25px 0px 10px 0px;
+}
+.Text {
+  width: 90%;
+  height: 100%;
+  color: rgb(40, 40, 40);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 700;
+}
+.description-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 90%;
+}
+.description {
+  margin: 0 auto;
+  border-radius: 15px;
+  margin: 10px 0px 15px 0px;
+}
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 50px 0px 50px 0px;
+}
+.ButtonRow {
+  display: flex;
+  gap: 150px;
+}
+.inner-button {
+  background-color: rgb(52 135 230);
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 15px;
+}
+.restart-button {
+  height: 50px;
+  width: 150px;
+  margin: 0px 0px 40px 0px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(52 135 230);
+  color: white;
+  cursor: pointer;
+}
+.results {
+  font-size: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .ButtonRow {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ButtonRow {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ButtonRow {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .description {
+    font-size: 20px;
+  }
+  .Buttons {
+    margin: 50px 0px 30px 0px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .Title {
+    font-size: 15px;
+  }
+  .question {
+    margin: 10px;
+  }
+  .Buttons {
+    margin: 15px 0px 30px 0px
+  }
+}
+@media screen and (max-width: 400px) {
+  .questionName {
+    margin: 50px 0px 0px 0px;
+  }
+}

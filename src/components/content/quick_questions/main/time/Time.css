@@ -1,0 +1,6 @@
+.Time{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 25px;
+}
